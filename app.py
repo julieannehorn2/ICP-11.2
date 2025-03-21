@@ -51,7 +51,7 @@ options=["CollgCr", "Veenker", "Crawfor", "NoRidge",
 if st.button("Predict Sale Price"):
   if model_choice == "Essential Features Model":
 # Build a DataFrame from the essential features only
-input_data = pd.DataFrame({
+  input_data = pd.DataFrame({
 'Age': [age],
 'Gr Liv Area': [gr_liv_area],
 'Lot Area': [lot_area],
